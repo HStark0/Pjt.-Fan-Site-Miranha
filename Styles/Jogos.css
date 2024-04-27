@@ -228,7 +228,7 @@ h3 {
 
     #main {
         grid-area: main;
-        padding: 20px;
+        padding: 10px;
         border-left: 1px solid #071723;
         border-right: 1px solid #071723;
     }
@@ -382,6 +382,7 @@ h3 {
 
     #main {
         grid-area: main;
+        padding: 10px;
         border-left: 1px solid #071723;
         border-right: 1px solid #071723;
     }
