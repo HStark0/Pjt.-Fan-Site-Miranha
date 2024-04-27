@@ -2,7 +2,7 @@ Projeto Fan-Site do Homem-Aranha
 
 - Descrição do projeto:
 
-O projeto foi feito com o ointuito avaliativo.
+O projeto foi feito com o o intuito avaliativo.
 
 Consiste num site sobre o personagem fictício Homem-Aranha, abordando suas características e adaptações.
 
