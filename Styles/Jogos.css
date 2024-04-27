@@ -215,10 +215,40 @@ h3 {
     *{
         font-size: 14px;
     }
-    
+
+    #container {
+        display: flex;
+        flex-direction: column;
+    }
+
     header {
         display: flex;
         flex-direction: column;
+    }
+
+    #main {
+        grid-area: main;
+        padding: 20px;
+        border-left: 1px solid #071723;
+        border-right: 1px solid #071723;
+    }
+
+    .navigation {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        column-gap: 20px;
+        list-style: none;
+        opacity: 0.5;
+    }
+    
+    .navigation-link {
+        font-weight: 0;
+        font-size: 14px;
+        letter-spacing: 0.5px;
+        text-decoration: none;
+        text-transform: uppercase;
+        position: relative;
     }
 
     h2 {
@@ -227,10 +257,114 @@ h3 {
         color: var(--red);
     }
 
+    .IMG-Jogos1 {
+        width: 100%;
+        height: 150px;
+        border-radius: 10px;
+        object-fit: cover;
+    }
+
     h3 {
         font-size: 15px;
         text-transform: uppercase;
         color: var(--red);
+    }
+
+    .img > img {
+        width: 100%;
+        border-radius: 10px 0px 0px 10px;
+    }
+
+    .img > .SM2000 {
+        width: 100%;
+    }
+    
+    .img > .SM2004 {
+        width: 100%;
+    }
+    
+    .img > .SMWS {
+        width: 100%;
+    }
+    
+    .img > .MSM {
+        width: 100%;
+    }
+
+    .info-jogos {
+        display: flex;
+        flex-direction: column;
+        background-color: #071723;
+        border-radius: 10px;
+    }
+    
+    .info-jogos > .p {
+        padding: 20px;
+    }
+    
+    .img > img {
+        border-radius: 10px 10px 0px 0px;
+    }
+
+    .p > p {
+        font-size: 14px;
+    }
+
+    .jogabilidade-gifs {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .jogabilidade-gifs > img {
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    footer {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        opacity: 0.3;
+        background-color: #040f15;
+        border-top: 1px solid #071723;
+    }
+
+    .rodape {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    
+    .IMG-rodape {
+        width: 20px;
+        height: 20px;
+    }
+    
+    .navigation-social2 {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+    
+    .navigation-social2 svg {
+        width: 20px;
+        height: 20px;
+        transition: all 0.4s;
+    }
+
+    /* Display None */
+
+    #left {
+        display: none;
+    }
+
+    #right {
+        display: none;
+    }
+
+    .rodape > p {
+        display: none;
     }
 }
 
