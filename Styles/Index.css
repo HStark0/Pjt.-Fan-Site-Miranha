@@ -262,120 +262,18 @@ audio, li {
 
 /* Media Query */
 
-@media only screen and (min-width: 350px) and (max-width:670px) {
-    #container {
-        display: flex;
-        flex-direction: column;
-    }
-
-    header {
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-        padding: 0;
-    }
-
-    .navigation {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        column-gap: 10px;
-        list-style: none;
-        opacity: 0.5;
-    }
-    
-    .navigation-link {
-        font-weight: 0;
-        font-size: 14px;
-        letter-spacing: 0.5px;
-        text-decoration: none;
-        text-transform: uppercase;
-        position: relative;
-    }
-
-    /* Left */
-
-    #left > p {
-        font-size: 14px;
-        margin-top: 0px;
-    }
-
-    .buttons {
-        margin-top: 65px;
-        margin-left: 17px;
-    }
-
-    .buttons > button > a {
-        font-size: 14px;
-    }
-
-    .edit, .pag {
-        width: 140px;
-        height: 35px;
-        border: none;
-        border-radius: 3px;
-        font-weight: 500;
-        text-align: center;
-        text-transform: uppercase;
-        letter-spacing: 0.3px;
-        transform: skew(-20deg);
-    }
-
-    .navigation-social {
-        margin-top: 65px;
-        display: flex;
-        justify-content: center;
-        column-gap: 40px;
-    }
-    
-    #footer2 {
-        grid-area: footer2;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        opacity: 0.2;
-        margin-left: 20px;
-        margin-right: 20px;
-    }
-
-    /* Display None */
-
-    audio {
-        display: none;
-    }
-
-    .IMG-Simbolo {
-        display: none;
-    }
-
-    .IMG-spider {
-        display: none;
-    }
-
-    #main {
-        display: none;
-    }
-
-    #right {
-        display: none;
-    }
-
-    footer {
-        display: none;
-    }
-}
-
 @media only screen and (max-width: 450px) {
     #container {
         display: flex;
         flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
     }
 
     header {
         display: flex;
         flex-direction: column;
         gap: 30px;
-        padding: 0;
     }
 
     .navigation {
@@ -383,7 +281,6 @@ audio, li {
         justify-content: center;
         align-items: center;
         column-gap: 30px;
-        margin-left: 30px;
         list-style: none;
         opacity: 0.5;
     }
@@ -400,13 +297,7 @@ audio, li {
     /* Left */
 
     #left > p {
-        padding: 20px;
         font-size: 18px;
-        margin-top: 0px;
-    }
-
-    .buttons {
-        margin-top: 60px;
     }
 
     .buttons > button > a {
@@ -426,7 +317,6 @@ audio, li {
     }
 
     .navigation-social {
-        margin-top: 100px;
         display: flex;
         justify-content: center;
         column-gap: 40px;
@@ -437,10 +327,8 @@ audio, li {
         display: flex;
         justify-content: space-between;
         align-items: center;
+        column-gap: 40px;
         opacity: 0.2;
-        margin-top: 40px;
-        margin-left: 20px;
-        margin-right: 20px;
     }
 
     /* Display None */
@@ -474,25 +362,27 @@ audio, li {
     #container {
         display: flex;
         flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
     }
 
     header {
         display: flex;
         flex-direction: column;
+        margin-left: 20px;
         gap: 10px;
         padding: 0;
     }
 
     .logo {
-        margin-top: 10px;
-        width: 150px;
+        width: 140px;
     }
 
     .navigation {
         display: flex;
         justify-content: center;
         align-items: center;
-        column-gap: 19px;
+        column-gap: 18px;
         list-style: none;
         opacity: 0.5;
     }
@@ -509,13 +399,7 @@ audio, li {
     /* Left */
 
     #left > p {
-        font-size: 15px;
-        margin-top: 20px;
-    }
-
-    .buttons {
-        margin-top: 50px;
-        margin-left: 10px;
+        font-size: 14px;
     }
 
     .buttons > button > a {
@@ -535,7 +419,6 @@ audio, li {
     }
 
     .navigation-social {
-        margin-top: 100px;
         display: flex;
         justify-content: center;
         column-gap: 40px;
@@ -544,12 +427,7 @@ audio, li {
     #footer2 {
         grid-area: footer2;
         display: flex;
-        justify-content: space-between;
-        align-items: center;
         opacity: 0.2;
-        margin-top: 60px;
-        margin-left: 20px;
-        margin-right: 20px;
     }
 
     /* Display None */
