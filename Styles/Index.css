@@ -280,8 +280,6 @@ audio, li {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        background-color: #05111954;
-        border-bottom: 2px solid #051119;
     }
 
     #left {
@@ -323,7 +321,7 @@ audio, li {
         column-gap: 10px;
         list-style: none;
         opacity: 0.5;
-        margin-left: 25px;
+        margin-left: 21px;
     }
 
     .navigation-link {
